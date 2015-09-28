@@ -1,0 +1,31 @@
+/*
+* Uses Font Awesome and Bootstrap 3
+* Both aren't required for this demo
+*/
+#site-menu-revealer {
+  position: absolute;
+  overflow: hidden;
+  width: 100px;
+  height: 500px;
+  transition: 300ms ease all;
+}
+#site-menu {
+  background: AntiqueWhite;
+  width: 300px;
+}
+.expand {
+  width: 300px;
+}
+/* Just styles... Not relevant to demo */
+body {
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.5);
+  background-color: #333;
+  color: #fff;
+}
+#big-sexy {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  font-size: 40px;
+  font-weight: 300;
+}
